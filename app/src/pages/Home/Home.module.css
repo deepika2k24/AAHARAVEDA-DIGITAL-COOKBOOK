@@ -1,0 +1,36 @@
+.home {
+  margin-top: 6rem;
+  background-image: url(../../assets/food.webp);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.home__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.home__text {
+  max-width: 28rem;
+  padding: 3rem;
+  border-radius: 4px;
+  background-color: white;
+  color: black;
+}
+
+.home__description {
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.home__button {
+  color: black;
+}

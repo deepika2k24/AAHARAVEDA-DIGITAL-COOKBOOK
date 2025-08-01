@@ -1,0 +1,14 @@
+.posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 16px;
+    margin-bottom: 3rem;
+}
+
+.modal {
+    height: 100%;
+    z-index: 5;
+    display: fixed;
+    top: 0;
+    left: 0;
+}
